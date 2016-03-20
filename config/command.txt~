@@ -1,5 +1,0 @@
-java -jar modules/swagger-codegen-cli/target/swagger-codegen-cli.jar generate \
-  -i http://www.cbioportal.org/beta/api-docs \
-  -l java \
-  -o /home/atishay/gsoc2016/cbioportal/swagger-cgds-java
-  -c /home/atishay/gsoc2016/cbioportal/swagger-cgds-java/config/config.json
