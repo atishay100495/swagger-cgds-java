@@ -41,7 +41,7 @@ import org.cbioportal.cgds.client.auth.HttpBasicAuth;
 import org.cbioportal.cgds.client.auth.ApiKeyAuth;
 import org.cbioportal.cgds.client.auth.OAuth;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-03-20T14:16:09.932+05:30")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-03-20T14:48:37.396+05:30")
 public class ApiClient {
   private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
   private String basePath = "https://www.cbioportal.org/beta";

@@ -1,4 +1,4 @@
-package org.cbioportal.cgds.client.api;
+package org.cbioportal.cgds.client.model;
 
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -9,18 +9,18 @@ import io.swagger.annotations.ApiModelProperty;
 
 
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-03-20T14:16:09.932+05:30")
-public class DBClinicalPatientData   {
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-03-20T14:48:37.396+05:30")
+public class DBClinicalSampleData   {
   
   private String attrId = null;
   private String attrVal = null;
-  private String patientId = null;
+  private String sampleId = null;
   private String studyId = null;
 
   
   /**
    **/
-  public DBClinicalPatientData attrId(String attrId) {
+  public DBClinicalSampleData attrId(String attrId) {
     this.attrId = attrId;
     return this;
   }
@@ -37,7 +37,7 @@ public class DBClinicalPatientData   {
   
   /**
    **/
-  public DBClinicalPatientData attrVal(String attrVal) {
+  public DBClinicalSampleData attrVal(String attrVal) {
     this.attrVal = attrVal;
     return this;
   }
@@ -54,24 +54,24 @@ public class DBClinicalPatientData   {
   
   /**
    **/
-  public DBClinicalPatientData patientId(String patientId) {
-    this.patientId = patientId;
+  public DBClinicalSampleData sampleId(String sampleId) {
+    this.sampleId = sampleId;
     return this;
   }
   
   @ApiModelProperty(example = "null", value = "")
-  @JsonProperty("patient_id")
-  public String getPatientId() {
-    return patientId;
+  @JsonProperty("sample_id")
+  public String getSampleId() {
+    return sampleId;
   }
-  public void setPatientId(String patientId) {
-    this.patientId = patientId;
+  public void setSampleId(String sampleId) {
+    this.sampleId = sampleId;
   }
 
   
   /**
    **/
-  public DBClinicalPatientData studyId(String studyId) {
+  public DBClinicalSampleData studyId(String studyId) {
     this.studyId = studyId;
     return this;
   }
@@ -95,26 +95,26 @@ public class DBClinicalPatientData   {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    DBClinicalPatientData dBClinicalPatientData = (DBClinicalPatientData) o;
-    return Objects.equals(this.attrId, dBClinicalPatientData.attrId) &&
-        Objects.equals(this.attrVal, dBClinicalPatientData.attrVal) &&
-        Objects.equals(this.patientId, dBClinicalPatientData.patientId) &&
-        Objects.equals(this.studyId, dBClinicalPatientData.studyId);
+    DBClinicalSampleData dBClinicalSampleData = (DBClinicalSampleData) o;
+    return Objects.equals(this.attrId, dBClinicalSampleData.attrId) &&
+        Objects.equals(this.attrVal, dBClinicalSampleData.attrVal) &&
+        Objects.equals(this.sampleId, dBClinicalSampleData.sampleId) &&
+        Objects.equals(this.studyId, dBClinicalSampleData.studyId);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(attrId, attrVal, patientId, studyId);
+    return Objects.hash(attrId, attrVal, sampleId, studyId);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class DBClinicalPatientData {\n");
+    sb.append("class DBClinicalSampleData {\n");
     
     sb.append("    attrId: ").append(toIndentedString(attrId)).append("\n");
     sb.append("    attrVal: ").append(toIndentedString(attrVal)).append("\n");
-    sb.append("    patientId: ").append(toIndentedString(patientId)).append("\n");
+    sb.append("    sampleId: ").append(toIndentedString(sampleId)).append("\n");
     sb.append("    studyId: ").append(toIndentedString(studyId)).append("\n");
     sb.append("}");
     return sb.toString();

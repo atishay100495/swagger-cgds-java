@@ -1,4 +1,4 @@
-package org.cbioportal.cgds.client.model;
+package org.cbioportal.cgds.client.api;
 
 import com.sun.jersey.api.client.GenericType;
 
@@ -7,24 +7,24 @@ import org.cbioportal.cgds.client.ApiClient;
 import org.cbioportal.cgds.client.Configuration;
 import org.cbioportal.cgds.client.Pair;
 
-import org.cbioportal.cgds.client.api.DBCancerType;
-import org.cbioportal.cgds.client.api.DBGene;
-import org.cbioportal.cgds.client.api.DBProfileData;
-import org.cbioportal.cgds.client.api.DBGeneticProfile;
-import org.cbioportal.cgds.client.api.DBClinicalField;
-import org.cbioportal.cgds.client.api.DBClinicalPatientData;
-import org.cbioportal.cgds.client.api.DBPatient;
-import org.cbioportal.cgds.client.api.DBClinicalSampleData;
-import org.cbioportal.cgds.client.api.DBSampleList;
-import org.cbioportal.cgds.client.api.DBSample;
-import org.cbioportal.cgds.client.api.DBStudy;
+import org.cbioportal.cgds.client.model.DBCancerType;
+import org.cbioportal.cgds.client.model.DBGene;
+import org.cbioportal.cgds.client.model.DBProfileData;
+import org.cbioportal.cgds.client.model.DBGeneticProfile;
+import org.cbioportal.cgds.client.model.DBClinicalField;
+import org.cbioportal.cgds.client.model.DBClinicalPatientData;
+import org.cbioportal.cgds.client.model.DBPatient;
+import org.cbioportal.cgds.client.model.DBClinicalSampleData;
+import org.cbioportal.cgds.client.model.DBSampleList;
+import org.cbioportal.cgds.client.model.DBSample;
+import org.cbioportal.cgds.client.model.DBStudy;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-03-20T14:16:09.932+05:30")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-03-20T14:48:37.396+05:30")
 public class ApicontrollerApi {
   private ApiClient apiClient;
 
